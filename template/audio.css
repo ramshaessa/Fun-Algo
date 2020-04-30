@@ -1,0 +1,239 @@
+body {
+    text-align: center;
+    color: black;
+    font-size: 26px;
+    background-color: #DDA0DD;	
+    padding: 45px;
+
+   
+}
+
+p {
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;
+    
+}
+
+#Submit {
+    
+    position: relative;
+    text-decoration: none;
+    color: #fff;
+    border: 2px solid transparent;
+    border-radius: 20px;
+    background-image: linear-gradient(#42455a, #42455a),radial-gradient(circle at top left, #fd00da, #19d7f8);
+    background-origin: border-box;
+    background-clip: content-box,border-box;
+    
+  }
+
+  #bubbleSortTime {
+      text-align: up;
+  }
+
+  .wrapper {
+    display: grid;
+    width: 90%;
+    margin: 0 auto;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 20px;
+    grid-auto-rows: 100px;
+    grid-auto-rows: 100px;
+    color: #444;
+
+}
+
+.box {
+    background-color: pink;
+    color: purple;
+    border-radius: 5px;
+    padding: 20px;
+    font-size: 150%;
+
+}
+
+.boxA {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 2;
+
+}
+
+.boxB {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+
+.boxC {
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+
+.boxD {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+
+.boxE {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+
+.boxF {
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+
+.boxG {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 3;
+    grid-row-end: 4;
+}
+
+.boxH {
+    grid-column-start: 4;
+    grid-column-end: 5;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+
+.boxI {
+    grid-column-start: 4;
+    grid-column-end: 5;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+
+.insertionSort {
+    background-image: url("images/insertionSortPic.jpg");
+}
+
+.insertionAudio {
+    padding-top: 53px;
+}
+
+.quickSort {
+    background-image: url("images/quickSortPic.jpg");
+}
+
+.quickAudio {
+    padding-top: 53px;
+}
+
+.mergeSort {
+    background-image: url("images/mergeSortPic.jpg");
+}
+
+.mergeAudio {
+    padding-top: 53px;
+}
+
+.selectionSort {
+    background-image: url("images/selectionSortPic.jpg");
+}
+
+.selectionAudio {
+    padding-top: 53px;
+}
+
+.bubbleSort {
+    background-image: url("images/bubbleSortPic.jpg");
+}
+
+.bubbleAudio {
+    padding-top: 53px;
+}
+
+.arrayList {
+    background-image: url("images/arrayListPic.jpg");
+}
+
+.arrayListAudio {
+    padding-top: 53px;
+}
+
+.tries {
+    background-image: url("images/tries.jpg");
+}
+
+.triesAudio {
+    padding-top: 53px;
+}
+
+.Stack {
+    background: url("images/Stack.jpg");
+}
+
+.stackAudio {
+    padding: 53px;
+}
+
+.heapSort {
+    background-image: url("images/heapSortPic.jpg");
+}
+
+.heapSortAudio {
+    padding: 53px;
+}
+
+.Queues {
+    background-image: url("images/Queue.jpg");
+}
+
+.QueuesAudio {
+    padding: 53px;
+}
+
+.hashTable {
+    background-image: url("images/hashTable.jpg");
+}
+
+.hashTableAudio {
+    padding: 53px;
+}
+
+.doublyLinkedList {
+    background-image: url("images/doublyLinkedListPic.jpg");
+}
+
+.doublyLinkedListAudio {
+    padding: 53px;
+}
+
+.countingSort {
+    background-image: url("images/countingSort.jpg");
+}
+
+.countingSortAudio {
+    padding: 53px;
+}
+
+.circularLinkedList {
+    background-image: url("images/circularLinkedList.jpg");
+}
+
+.circularAudio {
+    padding: 53px;
+}
+
+.binaryTree {
+    background-image: url("images/binaryTree.jpg");
+}
+
+.binaryAudio {
+    padding: 53px;
+}
+
